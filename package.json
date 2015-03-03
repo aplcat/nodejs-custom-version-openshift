@@ -9,19 +9,19 @@
     "openshift"
   ],
   "author": {
-    "name": "ramr",
-    "email": "ramr@example.org",
-    "url":  "http://www.openshift.com/"
+    "name": "Pau",
+    "email": "pau@apl.cat",
+    "url":  "http://www.apl.cat/"
   },
   "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "https://gitub.com/ramr/nodejs-custom-version-openshift"
+    "url": "https://gitub.com/aplcat/nodejs-custom-version-openshift"
   },
 
   "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
+    "node": ">= 0.12.0",
+    "npm": ">= 2.5.0"
   },
 
   "dependencies": {
@@ -31,5 +31,5 @@
   "bundleDependencies": [],
 
   "private": true,
-  "main": "server.js"
+  "main": "app.js"
 }
